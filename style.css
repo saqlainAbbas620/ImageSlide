@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+    background: #000;
+}
+.Container{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    gap: 10px;
+}
+
+.Container img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 1.4s;
+}
+.Container img:hover{
+    width: 25%;
+}
